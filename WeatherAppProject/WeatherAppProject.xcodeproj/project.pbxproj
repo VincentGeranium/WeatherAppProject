@@ -13,6 +13,7 @@
 		20E78582236D5609004244BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20E78580236D5609004244BE /* Main.storyboard */; };
 		20E78584236D5609004244BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20E78583236D5609004244BE /* Assets.xcassets */; };
 		20E78587236D5609004244BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20E78585236D5609004244BE /* LaunchScreen.storyboard */; };
+		20E7858F236D56AD004244BE /* NetworkProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E7858E236D56AD004244BE /* NetworkProcessor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		20E78583236D5609004244BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		20E78586236D5609004244BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		20E78588236D5609004244BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20E7858E236D56AD004244BE /* NetworkProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkProcessor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,12 +61,21 @@
 				20E7857A236D5609004244BE /* AppDelegate.swift */,
 				20E7857C236D5609004244BE /* SceneDelegate.swift */,
 				20E7857E236D5609004244BE /* ViewController.swift */,
+				20E78590236D56B1004244BE /* Model */,
 				20E78580236D5609004244BE /* Main.storyboard */,
 				20E78583236D5609004244BE /* Assets.xcassets */,
 				20E78585236D5609004244BE /* LaunchScreen.storyboard */,
 				20E78588236D5609004244BE /* Info.plist */,
 			);
 			path = WeatherAppProject;
+			sourceTree = "<group>";
+		};
+		20E78590236D56B1004244BE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				20E7858E236D56AD004244BE /* NetworkProcessor.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +152,7 @@
 				20E7857F236D5609004244BE /* ViewController.swift in Sources */,
 				20E7857B236D5609004244BE /* AppDelegate.swift in Sources */,
 				20E7857D236D5609004244BE /* SceneDelegate.swift in Sources */,
+				20E7858F236D56AD004244BE /* NetworkProcessor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
